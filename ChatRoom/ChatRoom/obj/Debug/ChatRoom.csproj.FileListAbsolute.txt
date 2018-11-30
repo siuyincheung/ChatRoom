@@ -1,0 +1,17 @@
+C:\Users\Administrator\source\repos\ChatRoom\ChatRoom\bin\Debug\ChatRoom.exe.config
+C:\Users\Administrator\source\repos\ChatRoom\ChatRoom\bin\Debug\ChatRoom.exe
+C:\Users\Administrator\source\repos\ChatRoom\ChatRoom\bin\Debug\ChatRoom.pdb
+C:\Users\Administrator\source\repos\ChatRoom\ChatRoom\obj\Debug\ChatRoom.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\source\repos\ChatRoom\ChatRoom\obj\Debug\ChatRoom.Properties.Resources.resources
+C:\Users\Administrator\source\repos\ChatRoom\ChatRoom\obj\Debug\ChatRoom.csproj.GenerateResource.Cache
+C:\Users\Administrator\source\repos\ChatRoom\ChatRoom\obj\Debug\ChatRoom.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\ChatRoom\ChatRoom\obj\Debug\ChatRoom.exe
+C:\Users\Administrator\source\repos\ChatRoom\ChatRoom\obj\Debug\ChatRoom.pdb
+C:\Users\Administrator\source\repos\ChatRoom\ChatRoom\obj\Debug\ChatRoom.ClientLogin.resources
+C:\Users\Administrator\source\repos\ChatRoom\ChatRoom\obj\Debug\ChatRoom.ServerLogin.resources
+C:\Users\Administrator\source\repos\ChatRoom\ChatRoom\bin\Debug\MySql.Data.dll
+C:\Users\Administrator\source\repos\ChatRoom\ChatRoom\obj\Debug\ChatRoom.ChatForm.resources
+C:\Users\Administrator\source\repos\ChatRoom\ChatRoom\obj\Debug\ChatRoom.Register.resources
+C:\Users\Administrator\source\repos\ChatRoom\ChatRoom\obj\Debug\ChatRoom.MainList.resources
+C:\Users\Administrator\source\repos\ChatRoom\ChatRoom\obj\Debug\ChatRoom.ProgressBar.resources
+C:\Users\Administrator\source\repos\ChatRoom\ChatRoom\obj\Debug\ChatRoom.MiniForm.resources
