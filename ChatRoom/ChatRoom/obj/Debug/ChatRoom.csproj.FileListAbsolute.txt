@@ -13,5 +13,4 @@ C:\Users\Administrator\source\repos\ChatRoom\ChatRoom\bin\Debug\MySql.Data.dll
 C:\Users\Administrator\source\repos\ChatRoom\ChatRoom\obj\Debug\ChatRoom.ChatForm.resources
 C:\Users\Administrator\source\repos\ChatRoom\ChatRoom\obj\Debug\ChatRoom.Register.resources
 C:\Users\Administrator\source\repos\ChatRoom\ChatRoom\obj\Debug\ChatRoom.MainList.resources
-C:\Users\Administrator\source\repos\ChatRoom\ChatRoom\obj\Debug\ChatRoom.ProgressBar.resources
 C:\Users\Administrator\source\repos\ChatRoom\ChatRoom\obj\Debug\ChatRoom.MiniForm.resources

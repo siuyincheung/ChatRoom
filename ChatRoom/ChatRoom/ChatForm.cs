@@ -10,6 +10,7 @@ using System.Windows.Forms;
 
 namespace ChatRoom
 {
+    delegate void ProcessingCallback(int value, int max);
 
     public partial class ChatForm : Form
     {
@@ -447,9 +448,8 @@ namespace ChatRoom
                 if (data.Length == 0)
                 {
                     fileStream.Write(data, 0, data.Length);
-                    Thread.Sleep(1000);
-                    progressBar1.Visible = false;
-                    ShowChatMsg("已成功保存文件。\r\n");
+                    ShowProgressBar(totalCount + 1, totalCount);
+                    ShowChatMsg("成功接收文件。");
                     foreach (ChatForm chatForm in ServerLogin.ChatForms)
                     {
                         if (chatForm.id == friendID && chatForm.friendID == id)
@@ -461,16 +461,36 @@ namespace ChatRoom
                 }
                 else
                 {
-                    progressBar1.Visible = true;
-                    progressBar1.Maximum = totalCount;
-                    progressBar1.Value = receiveCount;
-                    receiveCount++;
                     fileStream.Write(data, 0, data.Length);
+                    receiveCount++;
+                    ShowProgressBar(receiveCount, totalCount);
                     Thread.Sleep(1000);
                 }
             }
             fileStream.Close();
             mySocket.Close();
+        }
+
+        public void ShowProgressBar(int value, int max)
+        {
+            if (progressBar1.InvokeRequired)
+            {
+                ProcessingCallback d = new ProcessingCallback(ShowProgressBar);
+                this.Invoke(d, new object[] { value , max });
+            }
+            else
+            {
+                progressBar1.Visible = true;
+                progressBar1.Maximum = max;
+                if (value > max)
+                {
+                    progressBar1.Visible = false;
+                }
+                else
+                {
+                    progressBar1.Value = value;
+                }
+            }
         }
 
         private static byte[] ReceiveData(Socket s)
